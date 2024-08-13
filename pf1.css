@@ -1,0 +1,208 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.header {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 200px;
+    height: 50px;
+}
+
+.search {
+    position: absolute;
+    right: 400px;
+    outline: none;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+#search {
+    width: 250px;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 0;
+    flex-grow: 1; /* Input이 남은 공간을 차지하도록 함 */
+}
+
+#search:focus {
+    outline: none;
+}
+
+#searchB {
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    width: 35px;
+    height: 35px;
+}
+
+
+.dropdown {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.dropdown .btn-secondary {
+    background-color: transparent; /* 배경색 없애기 */
+    color: #333333;
+    border: none;
+    width: 200px;
+}
+.dropdown .btn-secondary:focus, .dropdown .btn-secondary:hover {
+    background-color: transparent; /* 호버 및 포커스 시 배경색 없애기 */
+}
+/* 드롭다운 화살표 숨기기 */
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.main {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.adv img {
+    display: none;
+}
+
+#makeup, #skincare {
+    width: 100vw;
+    height: 650px;
+}
+
+.best{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.whole {
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.item-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    color: #333;
+    font-size: 28px;
+    letter-spacing: 0.3em;
+    font-family: Helvetica, '나눔고딕', 'Nanum Gothic', '나눔스퀘어', 'Nanum Square', 'Apple SD Gothic Neo',
+    'Malgun Gothic', '맑은 고딕', Dotum, '돋움', sans-serif;
+}
+
+.best-item  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 30px;
+}
+
+.whole-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: 나눔고딕;
+}
+
+#best{
+    width: 350px;
+    height: 300px;
+}
+
+#whole {
+    width: 230px;
+    height: 200px;
+}
+
+.best-inform, .pb-i    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    font-family: 나눔고딕;
+}
+
+.whole-inform, .p-i    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-family: 나눔고딕;
+}
+
+.best-inform label, .pb-i label   {
+    width: 350px;
+    height: 50px;
+}
+
+.whole-inform label, .p-i label   {
+    width: 230px;
+    height: 50px;
+}
+
+.best-inform, .whole-inform {
+    font-weight: bold;
+}
+
+.best-inform span, .whole-inform span {
+    color: red;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+
+.footer {
+    background-color: #007bff;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
