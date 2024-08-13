@@ -101,8 +101,13 @@ body {
 }
 
 .adv img {
-    display: none;
+    display: none; /* 기본적으로 숨김 */
 }
+
+.adv img.active {
+    display: block; /* 활성화된 이미지만 보이도록 설정 */
+}
+
 
 #makeup, #skincare {
     width: 100vw;
