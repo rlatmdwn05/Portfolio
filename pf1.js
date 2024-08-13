@@ -18,5 +18,5 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function main() {
-    window.location.href = "pf1.html";
+    window.location.href = "index.html";
 }
